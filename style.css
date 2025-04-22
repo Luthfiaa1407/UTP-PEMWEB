@@ -54,7 +54,6 @@
   width: 100%;
 }
 
-/* Typing Animation hanya untuk "Luthfia" */
 .typing-animation {
   display: inline-block;
   overflow: hidden;
@@ -63,7 +62,7 @@
   width: 0;
   animation: typing 1.5s steps(20, end) infinite,
     blink-caret 0.75s step-end infinite;
-  animation-delay: 1s; /* Mulai setelah jeda singkat */
+  animation-delay: 1s;
 }
 
 @keyframes typing {
@@ -99,7 +98,7 @@
 }
 
 .hero-image img:hover {
-  transform: scale(1.05); /* Efek hover kecil */
+  transform: scale(1.05);
 }
 
 .contact-link:hover {
@@ -110,4 +109,17 @@
 }
 .contact-link:active {
   transform: translateY(-1px);
+}
+
+.carousel-inner {
+  background-color: #caf0f8;
+  padding: 30px 0;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #00f7ff;
+}
+.carousel-inner img {
+  transition: transform 0.3s ease;
+}
+.carousel-inner img:hover {
+  transform: scale(1.05);
 }
