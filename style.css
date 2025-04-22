@@ -1,0 +1,44 @@
+.hero-section {
+  background-image: url("img/7e6a7ad6ede2b31f94dc38a6fcd7752e.jpg");
+  background-size: cover;
+  height: 770px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 3%;
+}
+
+.hero-section .display-4 {
+  color: white;
+  margin-top: 150px;
+}
+
+.hero-section p {
+  color: white;
+}
+
+.hero-section .btn {
+  border: none;
+  border-radius: 25px;
+  border-right: 25px;
+  border-left: 25px;
+  margin-top: 40px;
+}
+
+.hero-section .btn:hover {
+  transform: scale(1.05);
+}
+
+.hero-image img {
+  width: 300px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.hero-image img:hover {
+  transform: scale(1.05); /* Efek hover kecil */
+}
